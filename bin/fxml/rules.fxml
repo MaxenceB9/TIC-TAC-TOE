@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+          <Label alignment="CENTER" prefHeight="56.0" prefWidth="359.0" text="TIC TAC TOE">
+               <font>
+                  <Font size="39.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" startX="0.4204545237801292">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color green="1.0" blue="0.15000000596046448" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.4332009322785017">
+                           <color>
+                              <Color red="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+      <Label prefHeight="202.0" prefWidth="341.0" text="Le but est simple : être le premier à aligner 3 symboles identiques. Et « aligner », ça veut dire :    horizontalement (sur une ligne)    verticalement (sur une colonne)    en diagonale (les deux diagonales possibles)Dès qu’un joueur réussit à faire un alignement de 3, la partie s’arrête et il gagne.Si toutes les cases sont remplies et que personne n’a fait d’alignement, la partie est nulle. Égalité. Et ça arrive souvent quand les deux joueurs jouent correctement." textAlignment="JUSTIFY" wrapText="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="5.0" right="5.0" />
+         </VBox.margin>
+      </Label>
+   </children>
+</VBox>
